@@ -9,7 +9,7 @@
  * @author g55047
  */
 public class ImmutableCircle2 {
-    private ImmutablePoint center;
+    private final ImmutablePoint center;
     private double radius;
     
     public ImmutableCircle2(ImmutablePoint center, double radius) {
