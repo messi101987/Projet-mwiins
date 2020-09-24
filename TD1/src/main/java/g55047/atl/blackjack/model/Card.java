@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package esi.atl.g55047.cards;
+package g55047.atl.blackjack.model;
 
 /**
  *
