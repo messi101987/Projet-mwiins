@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package g55047.atl.blackjack.model;
 
 import g55047.atl.blackjack.model.Card;
@@ -12,7 +7,7 @@ import java.util.List;
 
 /**
  *
- * @author oscartison
+ * @author Marika Winska 55047
  */
 public class Game implements Model {
 
@@ -27,7 +22,7 @@ public class Game implements Model {
     private int scoreBanque;
 
     @Override
-    public void demarerJeu() {
+    public void demarrerJeu() {
         deck = new Deck();
         deck.shuffle();
         scorePersonnel = 0;
@@ -55,7 +50,7 @@ public class Game implements Model {
 
 
     @Override
-    public void changeRour() {
+    public void changeTour() {
         main.clear();
         tourJoueur = !tourJoueur;
     }

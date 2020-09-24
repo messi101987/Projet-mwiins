@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package g55047.atl.blackjack.model;
 
 /**
  *
- * @author g55047
+ * @author Marika Winska 55047
  */
 public class Card {
+
     private Color couleur;
     private Value valeur;
 
@@ -31,7 +27,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return valeur + " of " + couleur;
+        return valeur + " DE " + couleur;
     }
-    
+
 }

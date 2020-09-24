@@ -13,13 +13,13 @@ import java.util.List;
  */
 public interface Model {
 
-    public void demarerJeu();
+    public void demarrerJeu();
 
     public void piocherCarte();
 
     public void calculerScore();
 
-    public void changeRour();
+    public void changeTour();
 
     public List<Card> getMain();
 
